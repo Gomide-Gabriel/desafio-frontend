@@ -1,49 +1,16 @@
-# Desafio-Frontend
+# React + Vite
 
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/1sti-transformacao.png)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Bem-vindo
+Currently, two official plugins are available:
 
-A 1STi é uma consultoria em tecnologias digitais emergentes que tem a missão de aproximar a tecnologia das reais necessidades sociais. Nós enxergamos a tecnologia como um presente à humanidade dado pela expressão de nosso próprio intelecto, realizando uma síntese entre arte, humanidade e ciência.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Nosso modelo de negócios combina projetos de valor compartilhado com consultoria nas tecnologias mais avançadas. Esse desafio é uma oportunidade para fazer parte do nosso time em uma jornada de aprendizado e desenvolvimento de interfaces web!
+## React Compiler
 
-## Aprendizado e desenvolvimento
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Você pode esperar um trabalho intenso em projetos HTML5/CSS3 com o framework React, do facebook, e boas práticas em Redux, um mecanismo de gerenciamento de estado de aplicações, além de diversos componentes javascript. 
+## Expanding the ESLint configuration
 
-O aprendizado se dá através de projetos reais, na construção de sites e aplicações que ajudem causas sociais de impacto. Conforme a evolução, serão feitas transições para projetos de consultoria em ambientes de negócio complexos. Temos o suporte de vídeo aulas em inglês para apoiar os estudos e montamos um plano individual em conjunto.
-
-O trabalho é home office, com carga horária de 6 horas por dia e comunicação intensa via slack e sala de vídeo no appear. Espere uma equipe engajada e ideológica, mas muito mão na massa e com sólidos princípios de arquitetura de aplicações web.
-
-O valor da bolsa de estágio por 01 ano é de R$ 1.000,00/mês.
-Serão dois selecionados e apos o desafio técnico teremos conversas por skype, mas fique à vontade para já ir nos conhecendo no slack.
-
-## Como participar
-
-* Crie um novo fork e branch com seu nome-sobrenome e faça um pull request quando estiver pronto. Iremos fazer code review.
-* Envie um email para ola@1sti.com.br para te adicionarmos ao time slack do desafio.
-
-## O desafio
-
-Vamos dar uma olhada na previsão do tempo? A meta é criarmos uma página simples, que consuma a API do Yahoo de previsão do tempo (https://developer.yahoo.com/weather/). O layout final deverá ficar o mais próximo possível da versão abaixo (sim, vamos ter a versão responsiva mobile e a versão desktop):
-
-Web:
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop1.png)
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-desktop2.png)
-
-Mobile responsivo:
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile1.png)
-
-![alt tag](https://s3-us-west-1.amazonaws.com/1sti/desafio-mobile2.png)
-
-## Dicas
-
-* Tudo bem, até pode usar jquery. Se você não quiser usar (bônus), uma sugestão: Axios para a comunicação com a API.
-* HTML o mais semântico possível.
-* Branches com readme e instruções de implantação serão bem vindos.
-* Pré-processadores CSS como Stylus ou LESS também.
-* Que tal utilizar BEM nos identificadores css? http://getbem.com/naming/ 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
